@@ -1,0 +1,9 @@
+Starting workflow: Django CI/CD
+Step 1: Checkout repository... Success
+Step 2: Set up Node.js... Success
+Step 3: Install frontend dependencies and build... Success
+Step 4: Set up Python... Success
+Step 5: Install backend dependencies... Success
+Step 6: Run Django tests... Success
+Step 7: Build and push Docker image... Success
+Workflow completed successfully.

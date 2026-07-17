@@ -1,0 +1,2 @@
+curl -G "http://127.0.0.1:5050/analyze" --data-urlencode "text=Fantastic services"
+{"sentiment": "positive"}
