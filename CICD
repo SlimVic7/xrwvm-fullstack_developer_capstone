@@ -1,0 +1,22 @@
+Run python manage.py test
+  python manage.py test
+  shell: /usr/bin/bash -e {0}
+  env:
+    pythonLocation: /opt/hostedtoolcache/Python/3.10.20/x64
+    PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.10.20/x64/lib/pkgconfig
+    Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.10.20/x64
+    Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.10.20/x64
+    Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.10.20/x64
+    LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.10.20/x64/lib
+System check identified some issues:
+
+WARNINGS:
+?: (staticfiles.W004) The directory '/home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone/server/frontend/build/static' in the STATICFILES_DIRS setting does not exist.
+
+System check identified 1 issue (0 silenced).
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.000s
+
+OK
+Found 0 test(s).
